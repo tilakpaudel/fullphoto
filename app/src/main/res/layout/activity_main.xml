@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Take a picture">
-    </Button>
+        android:text="Take a picture"></Button>
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Read from album">
-    </Button>
-
-    <ImageView android:id="@+id/imageView1"
-        android:layout_height="wrap_content"
-        android:src="@raw/kcg"
-        android:layout_width="wrap_content">
-    </ImageView>
+        android:text="Read from album"></Button>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
 
 
     <Button
@@ -32,18 +29,21 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="120dp"
         android:text="Start Recording" />
+
     <Button
         android:id="@+id/btnStop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
         android:text="Stop Recording" />
+
     <Button
         android:id="@+id/btnPlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
         android:text="Play Recording" />
+
     <Button
         android:id="@+id/btnStopPlay"
         android:layout_width="wrap_content"
